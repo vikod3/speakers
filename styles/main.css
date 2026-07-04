@@ -329,92 +329,12 @@ body { margin: 0; background: #433B73; }
   border-radius: 20px;
   overflow: hidden;
   background: #1a1a1e;
-  cursor: pointer;
-  transform: translateZ(0);
-  -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
 
-.card-bg {
-  position: absolute;
-  inset: 0;
+.card-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: opacity .6s cubic-bezier(.4, 0, .2, 1);
-}
-
-.card-bg--grey { opacity: 1; }
-.card-bg--purple { opacity: 0; }
-
-.speaker-card.active .card-bg--grey { opacity: 0; }
-.speaker-card.active .card-bg--purple { opacity: 1; }
-
-.card-speaker {
-  position: absolute;
-  left: -28%;
-  right: -28%;
-  bottom: -40%;
-  width: 156%;
-  height: 148%;
-  object-fit: contain;
-  object-position: bottom center;
-}
-
-.card-pill {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background: #d6d3f2;
-  color: #181523;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 10.5px;
-  padding: 5px 12px;
-  border-radius: 28px;
-  transition: background .4s ease;
-}
-
-.speaker-card.active .card-pill {
-  background: #8b8b8b;
-}
-
-.card-logo-circle {
-  position: absolute;
-  bottom: 12px;
-  right: 10px;
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  background: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, .35);
-}
-
-.card-logo-wyndham {
-  font-family: 'Inter', serif;
-  font-weight: 800;
-  font-size: 6.5px;
-  letter-spacing: .03em;
-  color: #0f2a4a;
-  text-align: center;
-  line-height: 1.1;
-}
-
-.card-logo-sub {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 4.5px;
-  letter-spacing: .12em;
-  color: #0f2a4a;
-}
-
-.card-logo-booking {
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 7px;
-  color: #003580;
 }
 
 .card-name {
