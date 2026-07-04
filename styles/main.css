@@ -1,15 +1,15 @@
 * { box-sizing: border-box; }
-body { margin: 0; background: #0a0a0c; }
+body { margin: 0; background: #433B73; }
 
 /* ===== Layout ===== */
 .screens-container {
   min-height: 100vh;
   display: flex;
   flex-wrap: nowrap;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   gap: 40px;
-  background: #0a0a0c;
+  background: #433B73;
   padding: 24px;
   font-family: 'Archivo', system-ui, sans-serif;
 }
